@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Nunito } from "next/font/google";
+const nunito = Nunito({ subsets: ["latin"], weight:["300","400","500","600","800"] });
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -25,8 +27,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      <body className={`  ${nunito.className}`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

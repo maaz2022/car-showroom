@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      
+      backgroundImage: {
+        bannerImg: "url('/rover.jpg')",
+        overlay: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
