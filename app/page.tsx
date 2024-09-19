@@ -1,8 +1,11 @@
+import FeaturedCars from "@/components/FeaturedCars";
+import WorkerInfo from "@/components/WorkerInfo";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <section
+    <>
+          <section
       className="relative bg-bannerImg bg-no-repeat bg-cover h-[120vh]"
       style={{
         clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
@@ -41,11 +44,19 @@ export default function Home() {
         </h1>
 
    
-        <button className="relative group border-2 border-white px-12 py-3 overflow-hidden">
-          <span className="relative z-10">CONTACT ME</span>
-          <div className="absolute inset-0 bg-gray-50 border-2 opacity-20 group-hover:opacity-30 hover:px-14 transition-all duration-700 ease-out transform scale-0 group-hover:scale-150 rounded "></div>
+      <button className="relative px-14  py-4 border-1 uppercase border-white  group ">
+          Contact Me
+          <span className="absolute top-0 left-0 size-full scale-0 bg-white/30  border-2 group-hover:scale-100  transition duration-700 pointer-events-none" />
+          <span className="absolute inset-0 border-2 border-white group-hover:scale-x-110 group-hover:scale-y-125 group-hover:opacity-0 transition delay-300 duration-500 ease-in-out pointer-events-none" />
         </button>
       </div>
     </section>
+    <section>
+      <FeaturedCars/>
+    </section>
+    <section>
+      <WorkerInfo/>
+    </section>
+    </>
   );
 }
