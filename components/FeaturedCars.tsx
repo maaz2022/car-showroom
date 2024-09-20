@@ -24,16 +24,16 @@ const FeaturedCars = () => {
   ];
 
   return (
-    <div className='flex items-center justify-center flex-col p-28 space-y-5'>
-      <p className='text-[20px] text-gray-500'>
+    <div className='flex items-center justify-center flex-col p-28' >
+      <p className='text-[20px] text-gray-500 mb-6'>
         EXPLORE CARS IN LAS VEGAS, HENDERSON, SUMMERLIN + MORE
       </p>
       <h1 className='relative font-bold text-5xl'>
         FEATURED <span className='font-normal'>CARS FOR SALE</span>
-        <span className='absolute inset-x-0 bottom-0 mx-auto w-16 border-b-4 border-black top-14'></span>
+        <span className='absolute inset-x-0 bottom-0 mx-auto w-20 border-b-8 border-black top-20'></span>
       </h1>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 pt-11'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-32'>
         {cars.map((car) => (
           <div 
             key={car.id} 

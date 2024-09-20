@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={`  ${nunito.className}`}
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div>{children}</div>
       </body>
     </html>
   );
