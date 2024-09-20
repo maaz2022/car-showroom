@@ -44,7 +44,7 @@ const Testimonials = () => {
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
             <p className="text-gray-600 text-center mb-4">
-              "Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with."
+              Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with.
             </p>
             <h3 className="mt-2 font-bold">Dominic Barlow</h3>
             <p className="text-sm text-gray-500">Lead Creative Producer, DeepMind</p>
@@ -58,7 +58,7 @@ const Testimonials = () => {
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
             <p className="text-gray-600 text-center mb-4">
-              "Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with."
+              Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with.
             </p>
             <h3 className="mt-2 font-bold">John Doe</h3>
             <p className="text-sm text-gray-500">CEO, Company A</p>
@@ -72,7 +72,7 @@ const Testimonials = () => {
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
             <p className="text-gray-600 text-center mb-4">
-              "Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with."
+              Moritz has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with.
             </p>
             <h3 className="mt-2 font-bold">Jane Smith</h3>
             <p className="text-sm text-gray-500">Manager, Company B</p>
