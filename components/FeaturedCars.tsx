@@ -7,7 +7,7 @@ const FeaturedCars = () => {
       id: 1,
       name: 'Mercedes Benz',
       price: '$89,990',
-      imageUrl: '/f1.jfif',
+      imageUrl: '/sec.jpg',
     },
     {
       id: 2,

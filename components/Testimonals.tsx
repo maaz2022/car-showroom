@@ -39,7 +39,7 @@ const Testimonials = () => {
           {/* Testimonial Card 1 */}
           <div className="swiper-slide bg-white p-6 shadow-md rounded-md flex flex-col items-center">
             <img
-              src="/man.jpg" // Replace with the correct image path
+              src="/man2.jpg" // Replace with the correct image path
               alt="Person"
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
@@ -53,7 +53,7 @@ const Testimonials = () => {
           {/* Testimonial Card 2 */}
           <div className="swiper-slide bg-white p-6 shadow-md rounded-md flex flex-col items-center">
             <img
-              src="/man.jpg" // Replace with the correct image path
+              src="/m.jpg" // Replace with the correct image path
               alt="Person"
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
@@ -67,7 +67,7 @@ const Testimonials = () => {
           {/* Testimonial Card 3 */}
           <div className="swiper-slide bg-white p-6 shadow-md rounded-md flex flex-col items-center">
             <img
-              src="/man.jpg" // Replace with the correct image path
+              src="/n.jpg" // Replace with the correct image path
               alt="Person"
               className="rounded-full h-16 w-16 object-cover mb-4"
             />
