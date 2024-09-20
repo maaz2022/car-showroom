@@ -15,7 +15,7 @@ const InfoSection = () => {
         />
     </div>
     <div className='w-1/2 pt-10 space-y-8 px-28'>
-        <h1 className='font-bold text-4xl'>PURCHASE <br /><span className='font-normal'>A HOME</span></h1>
+        <h1 className='font-bold text-4xl'>PURCHASE <br /><span className='font-normal'>A CAR</span></h1>
         <span className='block w-16 border-b-4 border-black mx-auto md:mx-0 mb-4'></span>
         <p className='max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
         </p>
@@ -31,7 +31,7 @@ const InfoSection = () => {
         <div className='flex bg-gray-100'>
 
     <div className='w-1/2 pt-10 space-y-8 px-28'>
-        <h1 className='font-bold text-4xl'>LIST <br /><span className='font-normal'>A HOME</span></h1>
+        <h1 className='font-bold text-4xl'>LIST <br /><span className='font-normal'>A CAR</span></h1>
         <span className='block w-16 border-b-4 border-black mx-auto md:mx-0 mb-4'></span>
         <p className='max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
         </p>
