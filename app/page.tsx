@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative bg-bannerImg bg-no-repeat bg-cover h-[120vh]"
+        className="relative bg-bannerImg bg-no-repeat bg-cover h-[70vh] lg:h-[120vh]"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
         }}
@@ -26,7 +26,7 @@ export default function Home() {
           }}
         ></div>
 
-        <div className="relative p-16 flex justify-between mx-28">
+        <div className="relative p-16 flex justify-between items-center mx-28">
           <div>
             <Link href="/">
                 <>
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-white p-10 top-[30%] left-[35%] flex items-center flex-col text-center space-y-8">
+        <div className="absolute z-10 text-white p-10 lg:top-[30%] lg:left-[35%] flex items-center flex-col text-center space-y-8 md:left-[25%]">
           <Reveal width="fit-content">
             <>
               <h1 className="text-[20px] font-semibold">

@@ -8,15 +8,15 @@ const Contact = () => {
         I AM AVAILABLE
       </p>
       <h1 className='relative font-bold text-5xl text-center'>
-        CONTACT ME<span className='font-normal'> Today</span>
+        CONTACT ME<span className='font-normal'> Now</span>
         <span className='absolute inset-x-0 bottom-0 mx-auto w-20 border-b-8 border-black top-20'></span>
       </h1>
 
       {/* Contact Info Section */}
-      <div className='flex justify-center items-center gap-40 mt-24'>
+      <div className='flex justify-center items-center gap-40 md:gap-20 mt-24'>
         {/* Phone Section */}
         <div className='flex flex-col items-center text-center space-y-2'>
-          <Phone className='text-4xl mb-4 text-black hover:animate-pulse duration-500 delay-300'size={40} />
+          <Phone className='text-4xl mb-4 text-black hover:animate-pulse duration-500 delay-300'size={40}  />
           <p className=' text-gray-600 text-[18px] font-light'>DIRECT PHONE #</p>
           <p className='text-black text-2xl font-semibold'>702-123-4567</p>
         </div>

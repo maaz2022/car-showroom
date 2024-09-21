@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-const WorkerInfo = () => {
+const   WorkerInfo = () => {
   return (
     <div className='bg-black w-full h-[550px] relative text-white '>
-      <div className='flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto'>
+      <div className='flex flex-col md:flex-row items-center justify-between lg:max-w-6xl md:max-w-4xl mx-auto'>
         {/* Worker Image */}
         <div className='md:w-1/2 w-full flex justify-center md:justify-start'>
           <div className="relative">
