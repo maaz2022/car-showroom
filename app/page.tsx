@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[140px] ">
+        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[50px] ">
           <Reveal width="fit-content">
             <>
               <h1 className="lg:text-[20px] font-semibold text-[14px]">
