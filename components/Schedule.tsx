@@ -11,7 +11,7 @@ const Schedule = () => {
         <p className='text-[20px] text-gray-500 mb-6 text-center'>
           SCHEDULE A FREE
         </p>
-        <h1 className='font-bold text-4xl md:text-5xl mb-8'>
+        <h1 className='font-bold text-4xl md:text-5xl mb-8 text-center'>
           CAR <span className='font-normal'>CONSULTATION</span>
         </h1>
 

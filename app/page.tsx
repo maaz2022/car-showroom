@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative bg-bannerImg bg-no-repeat bg-cover h-[60vh] lg:h-[120vh] sm:h-[80vh]"
+        className="relative bg-bannerImg bg-no-repeat bg-cover h-[70vh] lg:h-[120vh] sm:h-[80vh]"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
         }}
@@ -26,7 +26,7 @@ export default function Home() {
           }}
         ></div>
 
-        <div className="relative p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-20 flex-col items-center sm:flex-row ">
+        <div className="relative p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-18 flex-col items-center sm:flex-row ">
           <div>
             <Link href="/">
                 <>
@@ -46,13 +46,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-28 ">
+        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[50px] ">
           <Reveal width="fit-content">
             <>
-              <h1 className="lg:text-[20px] font-semibold sm:text-[15px]">
+              <h1 className="lg:text-[20px] font-semibold text-[14px]">
                 GREATER LAS VEGAS CAR SHOWROOM
               </h1>
-              <h1 className="text-5xl lg:text-7xl font-semibold">
+              <h1 className="text-4xl lg:text-7xl font-semibold">
                 FIND YOUR <br />
                 <span className="font-bold font-sans">DREAM CAR</span>
               </h1>
@@ -60,7 +60,7 @@ export default function Home() {
           </Reveal>
 
           <Reveal width="fit-content">
-            <button className="relative px-14 py-4 border-1 uppercase border-white group">
+            <button className="relative px-8 py-3 lg:py-4 lg:px-14 border-1 uppercase border-white group">
               Contact Me
               <span className="absolute top-0 left-0 size-full scale-0 bg-white/30 border-2 group-hover:scale-100 transition duration-700 pointer-events-none" />
               <span className="absolute inset-0 border-2 border-white group-hover:scale-x-110 group-hover:scale-y-125 group-hover:opacity-0 transition delay-300 duration-500 ease-in-out pointer-events-none" />

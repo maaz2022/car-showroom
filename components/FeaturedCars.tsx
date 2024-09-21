@@ -24,24 +24,24 @@ const FeaturedCars = () => {
   ];
 
   return (
-    <div className='flex items-center justify-center flex-col p-28'>
+    <div className='flex items-center justify-center flex-col lg:p-28  p-16'>
       {/* Centered tagline on small screens */}
-      <p className='text-[18px] text-gray-500 mb-6 text-center lg:text-[20px]'>
-        EXPLORE CARS IN LAS VEGAS, HENDERSON, SUMMERLIN + MORE
+      <p className='text-[17px] text-gray-500 mb-6 text-center lg:text-[20px]'>
+        EXPLORE CARS IN LAS VEGAS
       </p>
 
       {/* Center the heading for sm screens */}
-      <h1 className='relative font-bold text-4xl text-center lg:text-5xl'>
+      <h1 className='relative font-bold text-3xl text-center lg:text-5xl'>
         FEATURED <span className='font-normal'>CARS FOR SALE</span>
-        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black lg:top-20 top-[150px]'></span>
+        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black lg:top-20 top-[110px]'></span>
       </h1>
 
       {/* Car grid - Centering on small screens */}
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-32 justify-items-center'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-32 justify-items-center '>
         {cars.map((car) => (
           <div
             key={car.id}
-            className='shadow-lg lg:w-96  w-[450px] h-auto border border-gray-200 rounded-lg transition-transform transform hover:translate-y-[-10px] duration-300'
+            className='shadow-lg lg:w-96  w-[300px] h-auto border border-gray-200 rounded-lg transition-transform transform hover:translate-y-[-10px] duration-300'
           >
             <div className='relative h-56'>
               <Image

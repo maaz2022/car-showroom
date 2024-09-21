@@ -30,7 +30,7 @@ const Testimonials = () => {
     <div className="flex flex-col justify-center items-center p-20 space-y-6 relative">
       <p className="text-gray-700 text-2xl">CLIENT</p>
       <h1 className="uppercase font-bold text-4xl">Testimonials</h1>
-      <span className="absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-44"></span>
+      <span className="absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-40"></span>
 
       {/* Swiper Container */}
       <div className="swiper-container max-w-[300px] md:max-w-[300px] pt-10">
