@@ -26,12 +26,12 @@ const FeaturedCars = () => {
   return (
     <div className='flex items-center justify-center flex-col p-28'>
       {/* Centered tagline on small screens */}
-      <p className='text-[20px] text-gray-500 mb-6 text-center'>
+      <p className='text-[18px] text-gray-500 mb-6 text-center lg:text-[20px]'>
         EXPLORE CARS IN LAS VEGAS, HENDERSON, SUMMERLIN + MORE
       </p>
 
       {/* Center the heading for sm screens */}
-      <h1 className='relative font-bold text-5xl text-center'>
+      <h1 className='relative font-bold text-4xl text-center lg:text-5xl'>
         FEATURED <span className='font-normal'>CARS FOR SALE</span>
         <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black lg:top-20 top-[150px]'></span>
       </h1>
