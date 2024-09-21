@@ -30,13 +30,13 @@ export default function Home() {
           <div>
             <Link href="/">
                 <>
-                  <h1 className="text-white font-extrabold text-4xl">
+                  <h1 className="text-white font-extrabold lg:text-4xl text-3xl">
                     <span className="font-normal">Cars </span>Planet
                   </h1>
                 </>
             </Link>
           </div>
-          <div className="text-white uppercase space-x-8">
+          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px]">
             <Link href="/" className="hover:font-extrabold">
                 <>Buy or Sell</>
             </Link>
