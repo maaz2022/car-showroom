@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative bg-bannerImg bg-no-repeat bg-cover h-[70vh] lg:h-[120vh] sm:h-[80vh]"
+        className="relative bg-bannerImg bg-no-repeat bg-cover h-[60vh] lg:h-[120vh] sm:h-[80vh]"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
         }}
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[50px] ">
+        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[140px] ">
           <Reveal width="fit-content">
             <>
               <h1 className="lg:text-[20px] font-semibold text-[14px]">
