@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative bg-bannerImg bg-no-repeat bg-cover h-[70vh] lg:h-[120vh]"
+        className="relative bg-bannerImg bg-no-repeat bg-cover h-[70vh] lg:h-[120vh] sm:h-[80vh]"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
         }}
@@ -26,7 +26,7 @@ export default function Home() {
           }}
         ></div>
 
-        <div className="relative p-16 flex justify-between items-center mx-28">
+        <div className="relative p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-28 flex-col items-center sm:flex-row ">
           <div>
             <Link href="/">
                 <>
@@ -46,13 +46,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-white p-10 lg:top-[30%] lg:left-[35%] flex items-center flex-col text-center space-y-8 md:left-[25%]">
+        <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-24 ">
           <Reveal width="fit-content">
             <>
-              <h1 className="text-[20px] font-semibold">
+              <h1 className="lg:text-[20px] font-semibold sm:text-[15px]">
                 GREATER LAS VEGAS CAR SHOWROOM
               </h1>
-              <h1 className="text-7xl">
+              <h1 className="text-7xl font-semibold">
                 FIND YOUR <br />
                 <span className="font-bold font-sans">DREAM CAR</span>
               </h1>
