@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative bg-bannerImg bg-no-repeat bg-cover h-[60vh] lg:h-[120vh] sm:h-[80vh]"
+        className="relative bg-bannerImg bg-no-repeat bg-cover bg-center h-[60vh] lg:h-[120vh] sm:h-[80vh]"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
         }}
