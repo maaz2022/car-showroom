@@ -26,28 +26,29 @@ export default function Home() {
           }}
         ></div>
 
-        <div className="relative p-10 sm:p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-10 sm:mx-18 flex-col items-center sm:flex-row ">
+        <div className="relative p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center md:flex-row flex-col items-center sm:flex-row">
           <div>
             <Link href="/">
-                <>
-                  <h1 className="text-white font-extrabold lg:text-4xl text-3xl">
-                    <span className="font-normal">Cars </span>Planet
-                  </h1>
-                </>
+              <>
+                <h1 className="text-white font-extrabold lg:text-4xl text-3xl">
+                  <span className="font-normal">Cars </span>Planet
+                </h1>
+              </>
             </Link>
           </div>
-          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px]  mx-auto">
+          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px] md:text-[15px]">
             <Link href="/" className="hover:font-extrabold">
-                <>Buy or Sell</>
+              <>Buy or Sell</>
             </Link>
-            <Link href="/" className="hover:font-extrabold">       
-                <>Contact Me</>
+            <Link href="/" className="hover:font-extrabold">
+              <>Contact Me</>
             </Link>
           </div>
         </div>
 
+
         {/* <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[80px]"> */}
-        <div className="absolute text-white top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center flex justify-center items-center flex-col space-y-6 w-[300px]">
+        <div className="absolute text-white top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center flex justify-center items-center flex-col space-y-6 lg:w-full w-[300px]">
           <Reveal width="fit-content">
             <>
               <h1 className="lg:text-[20px] font-semibold text-[14px]">
