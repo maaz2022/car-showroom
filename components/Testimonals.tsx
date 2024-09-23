@@ -33,7 +33,7 @@ const Testimonials = () => {
       <span className="absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-40"></span>
 
       {/* Swiper Container */}
-      <div className="swiper-container max-w-[300px] md:max-w-[300px] pt-10">
+      <div className="swiper-container max-w-[400px] md:max-w-[300px] pt-10">
         <div className="swiper-wrapper">
 
           {/* Testimonial Card 1 */}

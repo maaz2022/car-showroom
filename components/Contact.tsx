@@ -9,11 +9,11 @@ const Contact = () => {
       </p>
       <h1 className='relative font-bold text-4xl md:text-5xl text-center'>
         CONTACT ME<span className='font-normal'> Now</span>
-        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-24 md:top-20 mb-5'></span>
+        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-16 md:top-20 mb-5'></span>
       </h1>
 
       {/* Contact Info Section */}
-      <div className='flex flex-col md:flex-row justify-center items-center gap-16 md:gap-20 mt-16 md:mt-24'>
+      <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mt-28 md:mt-24'>
         {/* Phone Section */}
         <div className='flex flex-col items-center text-center space-y-2'>
           <Phone className='text-4xl mb-4 text-black hover:animate-pulse duration-500 delay-300' size={40} />
