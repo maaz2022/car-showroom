@@ -9,7 +9,7 @@ const Contact = () => {
       </p>
       <h1 className='relative font-bold text-4xl md:text-5xl text-center'>
         CONTACT ME<span className='font-normal'> Now</span>
-        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-16 md:top-20 mb-5'></span>
+        <span className='absolute inset-x-0 mx-auto w-20 border-b-8 border-black top-24 md:top-20 mb-5'></span>
       </h1>
 
       {/* Contact Info Section */}
