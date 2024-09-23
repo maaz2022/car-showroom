@@ -36,7 +36,7 @@ export default function Home() {
                 </>
             </Link>
           </div>
-          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px] w-[300px] mx-auto">
+          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px]  mx-auto">
             <Link href="/" className="hover:font-extrabold">
                 <>Buy or Sell</>
             </Link>
