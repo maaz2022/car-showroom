@@ -47,7 +47,7 @@ const Footer = () => {
           <a href="/" className="text-gray-400 hover:text-white">Get Directions</a>
         </div>
       </div>
-        <span className='absolute inset-x-0 mx-auto w-[90%] border-b-2 border-white top-200'></span>
+        <span className='absolute inset-x-0 mx-auto w-[90%] border-b-2 border-white lg:top-[250px]'></span>
 
       {/* Footer Bottom */}
       <div className="mt-12 md:mt-24 text-center text-gray-400">
