@@ -26,7 +26,7 @@ export default function Home() {
           }}
         ></div>
 
-        <div className="relative p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-18 flex-col items-center sm:flex-row ">
+        <div className="relative p-10 sm:p-16 flex lg:justify-between lg:items-center md:justify-between md:items-center mx-10 sm:mx-18 flex-col items-center sm:flex-row ">
           <div>
             <Link href="/">
                 <>
@@ -36,7 +36,7 @@ export default function Home() {
                 </>
             </Link>
           </div>
-          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px]">
+          <div className="text-white uppercase space-x-8 text-[13px] lg:text-[18px] w-[300px] mx-auto">
             <Link href="/" className="hover:font-extrabold">
                 <>Buy or Sell</>
             </Link>
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
 
         {/* <div className="absolute z-10 text-white lg:top-[30%] lg:left-[38%] flex items-center flex-col text-center space-y-8 md:left-[25%] left-[80px]"> */}
-        <div className="absolute text-white top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center flex justify-center items-center flex-col space-y-6">
+        <div className="absolute text-white top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center flex justify-center items-center flex-col space-y-6 w-[300px]">
           <Reveal width="fit-content">
             <>
               <h1 className="lg:text-[20px] font-semibold text-[14px]">
